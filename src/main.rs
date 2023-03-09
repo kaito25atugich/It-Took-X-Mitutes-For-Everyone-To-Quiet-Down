@@ -143,12 +143,12 @@ fn main() {
             }
         }
 
-        println!("retry? (y/n)");
-        let mut input = String::new();
-        io::stdin().read_line(&mut input);
-        let trimmed = input.trim();
-        if trimmed != "y" {
-            break;
-        }
+        // println!("retry? (y/n)");
+        // let mut input = String::new();
+        // io::stdin().read_line(&mut input);
+        // let trimmed = input.trim();
+        // if trimmed != "y" {
+        //     break;
+        // }
     }
 }
